@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[scripts]
+dev="python manage.py runserver"
+makemigrations="python manage.py makemigrations"
+migrate="python manage.py migrate"
+
+[packages]
+django = "*"
+wagtail = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
